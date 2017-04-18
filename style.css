@@ -1,0 +1,42 @@
+html, body {
+  width: 100%;
+}
+
+body {
+  padding-top: 2em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 11em;
+}
+
+#num {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.expired {
+  color: red;
+  font-weight: bold;
+}
+
+span {
+  font-size: 2em;
+/*   font-style: italic; */
+  font-weight: bold;
+  text-shadow: -1px 0px 0px orange;
+}
+
+input {
+  height: 2;
+  font-size: 2em;
+}
+
+button {
+  font-size: 2em;
+}
